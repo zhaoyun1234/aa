@@ -3,11 +3,12 @@ package com.example.a;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	private TextView m;
-	
+	private ImageView mImg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
