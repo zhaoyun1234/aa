@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/findforwrad_img" >
+    
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    
+    android:layout_height="40dp"
+    android:background="@android:color/white">
+    <TextView 
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        android:text="发现"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"/>
+    <Button 
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        android:text="登陆"
+        android:textColor="#F07617"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/find_lofinbtn"/>
+</LinearLayout>
+<EditText 
+    
+    android:layout_width="match_parent"
+    
+    android:layout_height="40dp"
+    android:background="@android:color/white"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:hint="搜索"/>
+<ImageView 
+    
+    android:layout_width="match_parent"
+    
+    android:layout_height="wrap_content"
+    
+    android:src="@drawable/find"/>
+</LinearLayout>
