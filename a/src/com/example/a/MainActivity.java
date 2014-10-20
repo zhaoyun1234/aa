@@ -9,6 +9,8 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 	private TextView m;
 	private ImageView mImg;
+	private TextView re;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
