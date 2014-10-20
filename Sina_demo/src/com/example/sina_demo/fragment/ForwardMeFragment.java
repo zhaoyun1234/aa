@@ -19,6 +19,10 @@ public class ForwardMeFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+		
+		
+		
+		
 		// TODO Auto-generated method stub
 		View view=inflater.inflate(R.layout.login_forward_me, null);
 		mMeLoginBtn=(Button) view.findViewById(R.id.login_forword_me_loginBtn);
